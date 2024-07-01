@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MainPage.unity
     guid: a1734d6bc395cd84a866edebc84c5ce7
+  - enabled: 1
+    path: Assets/Scenes/Game_Fish.unity
+    guid: c1b2a58d232bf3f44b4143e434ec17bf
   m_configObjects:
     Unity.XR.PXR.Settings: {fileID: 11400000, guid: 7da2a2db19e3a93438fcc95f8f335efc, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: e18980341a9e6fa4190ae09546b053a8, type: 2}

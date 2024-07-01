@@ -5,6 +5,7 @@ using UnityEngine;
 /// <summary>
 /// 摄像机的亮度、对比度和饱和度调整
 /// </summary>
+[ExecuteInEditMode, ImageEffectAllowedInSceneView]
 public class CamBSC : PostEffectsBase
 {
     public Shader briSatConShader;
@@ -37,7 +38,7 @@ public class CamBSC : PostEffectsBase
     // Update is called once per frame
     void Update()
     {
-        
+
     }
     void OnRenderImage(RenderTexture src, RenderTexture dest)
     {

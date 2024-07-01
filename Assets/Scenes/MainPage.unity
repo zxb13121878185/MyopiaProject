@@ -239,7 +239,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\u5206\u5C4F\u8BAD\u7EC3"
+  m_Text: "\u776B\u72B6\u808C\u8BAD\u7EC3"
 --- !u!222 &78244073
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2099,6 +2099,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: main_scene
       objectReference: {fileID: 0}
+    - target: {fileID: 7816527828097695714, guid: 5f3cf51468b17924e8e8b68b3a74645d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f3cf51468b17924e8e8b68b3a74645d, type: 3}
 --- !u!1 &1411471402
@@ -2146,8 +2150,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   focusDistance: 0.1
-  focusRange: 3
-  bokehRadius: 4
+  focusRange: 0.1
+  bokehRadius: 10
   dofShader: {fileID: 4800000, guid: a6db272e9c49a6d4886eb5cc10231330, type: 3}
 --- !u!20 &1411471405
 Camera:

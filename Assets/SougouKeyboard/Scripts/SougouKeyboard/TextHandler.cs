@@ -3,7 +3,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using UnityEngine.UIElements;
 
-public class TextHandler : MonoBehaviour, IPointerUpHandler, IPointerDownHandler, IPointerExitHandler,IPointerEnterHandler
+public class TextHandler : MonoBehaviour, IPointerUpHandler, IPointerDownHandler, IPointerExitHandler, IPointerEnterHandler
 {
     public static bool IsFocusOn = false;//焦点是否在该组件上
     [SerializeField] private ImeManager imeManager;
@@ -57,7 +57,7 @@ public class TextHandler : MonoBehaviour, IPointerUpHandler, IPointerDownHandler
             //将鼠标点击坐标转化为世界坐标
             Vector3 tempPointerPos = Camera.main.ScreenToWorldPoint(tempMousePos); //屏幕坐标转世界坐标
                                                                                    //  Debug.Log("eventPos:" + eventData.position + " pos:" + tempPointerPos);
-            imeDelegateImpl_Kbd.transform.position = new Vector3(transform.position.x, tempPointerPos.y - Global_Manage.M_HeigitKeyboard, transform.position.z+0.1f);
+                                                                                   //  imeDelegateImpl_Kbd.transform.position = new Vector3(transform.position.x, tempPointerPos.y - Global_Manage.M_HeigitKeyboard, transform.position.z+0.1f);
 
         }
     }

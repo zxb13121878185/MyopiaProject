@@ -38,21 +38,21 @@ public class ImeManager : MonoBehaviour
         #region 测试
 
 
-        Transform tempXRCtr = UI_MainPageCtr.M_Instance.xrCtr[0].transform;
-        //从手柄处发送一条射线
-        Ray ray = new Ray(tempXRCtr.position, tempXRCtr.forward);
-        RaycastHit hit;
-        bool tempIsHide = true;
-        if (Physics.Raycast(ray, out hit, 1000))
-        {
-            //碰到了键盘物体
-            string tempKeyboardName = "polySurface";
-         //   Debug.Log(hit.transform.name);
-            if (hit.transform.name.Contains(tempKeyboardName))
-            {
-                tempIsHide = false;
-            }
-        }
+        //// Transform tempXRCtr = UI_MainPageCtr.M_Instance.xrCtr[0].transform;
+        // //从手柄处发送一条射线
+        // Ray ray = new Ray(tempXRCtr.position, tempXRCtr.forward);
+        // RaycastHit hit;
+        // bool tempIsHide = true;
+        // if (Physics.Raycast(ray, out hit, 1000))
+        // {
+        //     //碰到了键盘物体
+        //     string tempKeyboardName = "polySurface";
+        //  //   Debug.Log(hit.transform.name);
+        //     if (hit.transform.name.Contains(tempKeyboardName))
+        //     {
+        //         tempIsHide = false;
+        //     }
+        // }
 
         //if (tempIsHide && !TextHandler.FocusOn)
         //{
