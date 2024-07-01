@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XMLContent>
+  <!--<HTTPBaseUrl>http://36.134.81.53:6061</HTTPBaseUrl>-->
+  <HTTPBaseUrl>http://36.138.246.173:9081</HTTPBaseUrl>
+  <Timeout>5000</Timeout>
+  <LastLoginUserName>test002</LastLoginUserName>
+  <LastLoginPassword>Ict@123</LastLoginPassword>
+  <Left_Brightness>1.0</Left_Brightness>
+  <Left_Saturation>1.0</Left_Saturation>
+  <Left_Contrast>1.0</Left_Contrast>
+  <Right_Brightness>1.0</Right_Brightness>
+  <Right_Saturation>1.0</Right_Saturation>
+  <Right_Contrast>1.0</Right_Contrast>
+  <GameCode_Fruits>863d718341c2433ea96ae1cc1c1c38b7</GameCode_Fruits>
+  <GameCode_Forest>1e75eae21aad4069ac6b8de6d33d6ae2</GameCode_Forest>
+  <GameCode_Forest2>0ec176e1cd7b4a708aa1718a429bbcfc</GameCode_Forest2>
+  <GameCode_Balloon>56645b3403784ad184a5e21f0e160927</GameCode_Balloon>
+  <GameCode_Balloon2>deabe5bea5874d2f90db86e7681a8648</GameCode_Balloon2>
+  <GameCode_FoodSeek>b4e1ff5da3f840dc8d4ad9965a090ffa</GameCode_FoodSeek>
+  <GameFruits_Speed>1.0</GameFruits_Speed>
+  <GameFruits_MaxNum>30</GameFruits_MaxNum>
+  <Fruits_eyeCastBox>0.2</Fruits_eyeCastBox>
+  <Ballon_eyeCastBox>0.2</Ballon_eyeCastBox>
+  <heightKeyboard>1.5</heightKeyboard>
+  <TimeGameFruitShoot>1</TimeGameFruitShoot>
+  <IsLocalVersion>true</IsLocalVersion>
+  <DbName>AmblyopiaDb.db</DbName>
+  <CurAdviceID>10001</CurAdviceID>
+  <TimeDetectOnce>5</TimeDetectOnce>
+  <URL_UpLoadSysSetting>/lazyeye-admin-api/vrClient/game/updatePatientParam</URL_UpLoadSysSetting>
+  <URL_Regis></URL_Regis>
+  <URL_VerifyCode></URL_VerifyCode>
+  <URL_SetGameLevel>/lazyeye-admin-api/vrClient/game/updateGameLevel</URL_SetGameLevel>
+  <URL_LoginOut>/lazyeye-admin-api/logout</URL_LoginOut>
+  <URL_Login>/lazyeye-admin-api/vrClient/login</URL_Login>
+  <URL_DataFruits>/lazyeye-admin-api/vrClient/game/uploadShotting</URL_DataFruits>
+  <URL_DataForest>/lazyeye-admin-api/vrClient/game/uploadForest</URL_DataForest>
+  <URL_DataBalloon>/lazyeye-admin-api/vrClient/game/uploadBalloon</URL_DataBalloon>
+  <URL_DataForest2>/lazyeye-admin-api/vrClient/game/uploadForest2</URL_DataForest2>
+  <URL_DataBalloon2>/lazyeye-admin-api/vrClient/game/uploadBalloon2</URL_DataBalloon2>
+  <GameTimeLen_Fruits>240</GameTimeLen_Fruits>
+  <GameTimeLen_Forest>240</GameTimeLen_Forest>
+  <GameTimeLen_Forest2>240</GameTimeLen_Forest2>
+  <GameTimeLen_Balloon>240</GameTimeLen_Balloon>
+  <GameTimeLen_Balloon2>240</GameTimeLen_Balloon2>
+  <GameTimeLen_FoodSeek>240</GameTimeLen_FoodSeek>
+  <timeMinInterval>1</timeMinInterval>
+  <timeMaxInterval>5</timeMaxInterval>
+  <maxNumConsecutiveHit>3</maxNumConsecutiveHit>
+
+</XMLContent>
